@@ -126,3 +126,60 @@ E-Waste/
 │   └── package.json
 │
 └── README.md
+
+▶️ Run Backend Server
+
+Inside server folder:
+
+npm start
+
+Expected Output:
+
+MongoDB Connected
+Server running on port 5000
+▶️ Run Frontend
+
+Inside client folder:
+
+npm run dev
+
+Open browser:
+
+http://localhost:5173
+🗄️ MongoDB Collections
+users
+
+Stores:
+
+name
+email
+password
+ewastes
+
+Stores:
+
+deviceName
+category
+condition
+address
+status
+🔌 API Endpoints
+Authentication APIs
+Method	Endpoint
+POST	/api/auth/register
+POST	/api/auth/login
+E-Waste APIs
+Method	Endpoint
+POST	/api/ewaste
+GET	/api/ewaste
+PUT	/api/ewaste/:id
+DELETE	/api/ewaste/:id
+🌱 Future Enhancements
+Image Upload
+Admin Dashboard
+Search & Filter
+Pickup Scheduling
+JWT Protected Routes
+Email Notifications
+Deployment
+
