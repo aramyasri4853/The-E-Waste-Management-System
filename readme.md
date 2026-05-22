@@ -1,8 +1,3 @@
-Your README formatting broke because GitHub needs proper Markdown syntax (`#`, `##`, `-`, tables, code blocks, etc.).
-
-Replace your FULL `README.md` with this properly formatted version 👇
-
-````md id="md1"
 # 🌍 E-Waste Management System
 
 A full-stack MERN application developed to help users submit and manage electronic waste efficiently for proper recycling and disposal.
