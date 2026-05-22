@@ -73,6 +73,28 @@ To create an online platform that connects users with e-waste collectors for saf
 | UPDATE | Edit existing item |
 | DELETE | Remove submitted item |
 
+# 📂 Project Structure
+
+```plaintext
+E-Waste/
+│
+├── client/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+│   │
+│   └── package.json
+│
+├── server/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+
+
 ---
 
 # 🧠 How the Project Works
@@ -103,29 +125,6 @@ All submitted data gets stored in MongoDB Atlas cloud database.
 ## Step 5 — Collection Process
 
 Collection members or recycling teams can later collect those electronic devices for proper recycling and disposal.
-
----
-
-# 📂 Project Structure
-
-```plaintext
-E-Waste/
-│
-├── client/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── App.jsx
-│   │
-│   └── package.json
-│
-├── server/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
-│
-└── README.md
 
 ▶️ Run Backend Server
 
@@ -182,4 +181,9 @@ Pickup Scheduling
 JWT Protected Routes
 Email Notifications
 Deployment
+
+---
+
+
+
 
